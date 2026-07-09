@@ -29,3 +29,12 @@ Begin learning the Git workflow and make small, meaningful commits as I progress
 ### Linux Baseline Lab
 - [x] Completed a 45-minute Linux baseline lab
 - [x] Practiced filesystem navigation, permissions, processes, scripting, and archives
+
+### Project Evidence Journal
+
+- [x] Created a project evidence journal
+- [x] Documented the roadmap repository
+- [x] Documented the two planned portfolio repositories
+- [x] Recorded the AWS diagnostic result
+- [x] Documented the Linux baseline lab
+- [x] Added a reusable evidence-entry template
