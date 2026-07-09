@@ -25,3 +25,7 @@
 ### Next Step
 
 Begin learning the Git workflow and make small, meaningful commits as I progress through the roadmap.
+
+### Linux Baseline Lab
+- [x] Completed a 45-minute Linux baseline lab
+- [x] Practiced filesystem navigation, permissions, processes, scripting, and archives
