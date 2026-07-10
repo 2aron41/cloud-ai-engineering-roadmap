@@ -231,6 +231,172 @@ Complete a hands-on Linux lab in an Ubuntu environment and establish a baseline 
 
 ---
 
+---
+
+## Evidence Entry 5 — AWS Foundations Study
+
+**Date:** July 10, 2026  
+**Status:** Completed
+
+### Objective
+
+Strengthen my AWS Cloud Practitioner foundation by reviewing the services and concepts that appeared as weaknesses on my diagnostic.
+
+### Work Completed
+
+- Studied AWS Regions, Availability Zones, and edge locations
+- Reviewed the AWS Shared Responsibility Model
+- Studied IAM users, groups, roles, policies, access keys, and least privilege
+- Reviewed Amazon EC2, Amazon S3, and AWS Lambda
+- Studied VPCs, subnets, route tables, Internet Gateways, security groups, and network ACLs
+- Completed recall questions and corrected missed concepts
+
+### Technologies and Services
+
+- AWS IAM
+- Amazon EC2
+- Amazon S3
+- AWS Lambda
+- Amazon VPC
+- Amazon CloudFront
+
+### Evidence
+
+- Study notes: `study-notes/aws-foundations-day2.md`
+- July 10 journal: `daily-logs/2026-07-10.md`
+
+### Skills Demonstrated
+
+- AWS service identification
+- Cloud security fundamentals
+- Identity and access management
+- Basic cloud networking
+- Scenario-based problem solving
+- Self-correction through recall practice
+
+### Challenges Encountered
+
+- Confused S3 storage with Lambda event processing
+- Confused IAM roles with networking components
+- Confused security groups with network ACLs
+- Needed additional practice remembering what makes a subnet public
+
+### Resolution
+
+I repeated missed questions, used short memory statements, and separated services by purpose:
+
+- IAM role = permissions
+- Subnet = network location
+- S3 = object storage
+- Lambda = event-driven code
+- Security group = resource level
+- Network ACL = subnet level
+- Public subnet = route table to Internet Gateway
+
+### What I Learned
+
+I learned how core AWS services work together and how AWS separates networking, storage, compute, permissions, and security responsibilities.
+
+### Next Step
+
+Continue Cloud Practitioner study and complete more hands-on AWS exercises.
+
+---
+
+## Evidence Entry 6 — Linux and Git Reinforcement
+
+**Date:** July 10, 2026  
+**Status:** Completed
+
+### Objective
+
+Reinforce basic Linux and Git skills through a second hands-on practice session.
+
+### Work Completed
+
+- Created and edited files from the command line
+- Used `grep` to search inside files
+- Used `find` to locate files
+- Changed permissions with `chmod 600`
+- Inspected processes, storage, memory, and uptime
+- Reviewed Git status, history, and file-change summaries
+
+### Technologies and Tools
+
+- Ubuntu Linux
+- Bash
+- Git
+- GitHub Codespaces
+
+### Evidence
+
+- Report: `linux/day-2-practice.md`
+- Practice folder: `linux/day-2-practice/`
+
+### Skills Demonstrated
+
+- Linux filesystem management
+- Search commands
+- File permissions
+- System inspection
+- Git history review
+- Technical documentation
+
+### Possible Résumé Bullet
+
+- Reinforced Ubuntu Linux and Git skills through hands-on command-line exercises covering file management, search utilities, permissions, process inspection, system resources, and repository history.
+
+---
+
+## Evidence Entry 7 — AWS Serverless Portfolio Planning
+
+**Date:** July 10, 2026  
+**Status:** Completed
+
+### Objective
+
+Create the initial technical plan and architecture for a serverless AWS portfolio project.
+
+### Work Completed
+
+- Defined the project goal and intended users
+- Identified the minimum viable product
+- Selected planned AWS services
+- Documented the application flow
+- Added security considerations
+- Created planned development phases
+- Created a Mermaid architecture diagram
+
+### Planned Technologies
+
+- Amazon S3
+- Amazon CloudFront
+- Amazon API Gateway
+- AWS Lambda
+- Amazon DynamoDB
+- Amazon CloudWatch
+- AWS IAM
+- Python
+- GitHub Actions
+
+### Evidence
+
+- Project plan: `project-plans/aws-serverless-portfolio.md`
+- Architecture diagram: `architecture-diagrams/aws-serverless-portfolio.md`
+- Future project repository: https://github.com/2aron41/aws-serverless-portfolio
+
+### Skills Demonstrated
+
+- Cloud project planning
+- Serverless architecture design
+- AWS service selection
+- Security planning
+- Technical documentation
+- Architecture visualization
+
+### Possible Résumé Bullet
+
+- Designed a planned AWS serverless portfolio architecture using S3, CloudFront, API Gateway, Lambda, DynamoDB, CloudWatch, and IAM, including security controls and phased implementation goals.
 # Template for Future Entries
 
 ## Evidence Entry — Project or Lab Name
