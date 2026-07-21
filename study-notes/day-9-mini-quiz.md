@@ -45,3 +45,51 @@ Answer:It indicates that applying the plan will create one new resource, modify 
 - Correct: 10/10
 - Percentage: 100%
 - Confidence: High — I understand initialization, formatting, validation, planning, providers, dependency locking, variable validation, and Terraform state safety.
+
+# Original Day 9 Checklist Quiz
+
+## 1. What does `terraform init` do?
+
+Answer: It initializes the working directory, installs required providers and modules, configures the backend, and creates or updates dependency information.
+
+## 2. What is the purpose of `terraform fmt`?
+
+Answer: It formats Terraform configuration files using the standard HCL style.
+
+## 3. What does `terraform validate` check?
+
+Answer: It checks configuration syntax and internal consistency without applying infrastructure changes.
+
+## 4. Why is `terraform plan` important?
+
+Answer: It previews proposed additions, changes, and deletions so the plan can be reviewed before infrastructure is modified.
+
+## 5. What does Terraform state track?
+
+Answer: State tracks the relationship between Terraform resource addresses and the real resources Terraform manages.
+
+## 6. Why can Terraform be dangerous?
+
+Answer: An incorrect or unreviewed configuration can modify or delete real infrastructure and data.
+
+## 7. Should CloudFront invalidation be handled by Terraform or GitHub Actions in your project? Why?
+
+Answer: GitHub Actions should handle invalidation because it is an application deployment operation that should run after updated website files are synchronized. Terraform should manage the long-lived CloudFront infrastructure.
+
+## 8. Why should secrets not be committed to GitHub?
+
+Answer: Secrets committed to Git may be exposed publicly and can remain accessible through repository history even after the visible file is changed.
+
+## 9. What does Infrastructure as Code help you reproduce?
+
+Answer: It helps reproduce consistent infrastructure configurations across environments using version-controlled code.
+
+## 10. What does `No changes. Your infrastructure matches the configuration.` mean?
+
+Answer: Terraform found no differences between the desired configuration, state, and managed infrastructure that require action.
+
+## Original Checklist Score
+
+- Correct: 10/10
+- Percentage: 100%
+- Confidence: High
